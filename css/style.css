@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+}
+
+.btn {
+    width: 94%;
+    max-width: 300px;
+    height: 140px;
+    color: #fff;
+    border-radius: 10px;
+    line-height: 140px;
+    background-color: rgb(50, 155, 253);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    text-transform: uppercase;
+    z-index: 0;
+}
+
+.bg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.form {
+    width: 94%;
+    max-width: 400px;
+    height: 60%;
+    max-height: 700px;
+    min-height: 400px;
+    background-color: #fff;
+    padding: 70px 2%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid rgb(120,120,120);
+}
+
+.form input[type=text] {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    padding: 30px 2%;
+    border: 1px solid #ccc;
+}
+
+.form input[type=submit] {
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    border-radius: 10px;
+    line-height: 60px;
+    background-color: rgb(50, 155, 253);
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 4px solid rbg(210,210,210);
+}
+
+.form p {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    cursor: pointer;
+}
